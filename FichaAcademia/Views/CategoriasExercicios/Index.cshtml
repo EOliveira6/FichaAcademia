@@ -1,0 +1,87 @@
+﻿@model X.PagedList.IPagedList<FichaAcademia.Dominio.Models.CategoriaExercicio>
+@using X.PagedList.Mvc.Core
+
+@{
+    ViewData["Title"] = "Nova categoria de exercicio";
+}
+<h5>Nova categoria de exercicio</h5>
+<p>
+    <a asp-action="Create" class="btn-small green darken-2">Nova categoria</a>
+</p>
+
+<form class="form-inline" action="/CategoriasExercicios/filter">
+    <div class="form-group mx-sm-6">
+        <div>
+            <label class="sr-only">Nome Exercicio</label>
+        </div>
+        <input id="procuraCategoriaExercicio" class="form-control"
+               style="display: inline-block; width:50%">
+        <span class="input-group-btn">
+            <button style="border-radius: 30px 10px;" type="button" class="btn btn-default" onclick="filterCategoriaExercicio()"><img width="32" height="32" src="~/Imagens/icon.png" /></button>
+        </span>
+    </div>
+</form>
+
+    <table class="table striped hover highlight">
+        <thead>
+            <tr>
+                <th>
+                    Nome
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="bodyCatetoriaExercicioList">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.CategoriaExercicioId" class="btn-small light-blue darken-2 mr-2">Atualizar</a>
+                        <a onclick="ExibirModal(@item.CategoriaExercicioId, '@item.Nome')" class="btn-small red darken-2">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+    @Html.PagedListPager(Model, pagina => Url.Action("Index", new { pagina }))
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Confirmar exclusão</h4>
+            <p>Deseja prosseguir com a exclusão de <b class="nome"></b> ?</p>
+        </div>
+        <div class="modal-footer">
+            <a class="modal-close btn green accent-4">Não</a>
+            <a class="modal-close btn red accent-4 btnConfirmar">Sim</a>
+        </div>
+    </div>
+    @section Scripts
+        {
+        <script>
+            $(document).ready(function () {
+                $(".modal").modal();
+            })
+
+            function ExibirModal(id, nome) {
+                $(".nome").html(nome);
+
+                $("#modal1").modal("open");
+
+                $(".btnConfirmar").on('click', function () {
+                    $.ajax({
+                        method: "POST",
+                        url: "/CategoriasExercicios/Delete",
+                        data: { id: id },
+                        success: function () {
+                            location.reload();
+                        }
+                    });
+                });
+            }
+        </script>
+    }

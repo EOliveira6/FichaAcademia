@@ -1,0 +1,24 @@
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.AcessoDados.deps.json
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.AcessoDados.dll
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.AcessoDados.pdb
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.dll
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.pdb
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.csprojAssemblyReference.cache
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.csproj.CoreCompileInputs.cache
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.AssemblyInfoInputs.cache
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.AssemblyInfo.cs
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.csproj.CopyComplete
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.dll
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.pdb
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.AcessoDados.deps.json
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.AcessoDados.dll
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.AcessoDados.pdb
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.dll
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.pdb
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.csprojAssemblyReference.cache
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.AssemblyInfoInputs.cache
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.AssemblyInfo.cs
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.csproj.CoreCompileInputs.cache
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.csproj.CopyComplete
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.dll
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.AcessoDados\obj\Release\netcoreapp2.1\FichaAcademia.AcessoDados.pdb

@@ -1,0 +1,18 @@
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.deps.json
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.dll
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.pdb
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.csprojAssemblyReference.cache
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.AssemblyInfoInputs.cache
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.AssemblyInfo.cs
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.dll
+C:\Users\Pri\source\repos\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.pdb
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.deps.json
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.dll
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\bin\Release\netcoreapp2.1\FichaAcademia.Dominio.pdb
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.csprojAssemblyReference.cache
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.AssemblyInfoInputs.cache
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.AssemblyInfo.cs
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.dll
+C:\Users\Eleni Oliveira\Desktop\ftt\5 semestre\Eleni-LIP-BDO\FichaAcademia (2)\FichaAcademia\FichaAcademia.Dominio\obj\Release\netcoreapp2.1\FichaAcademia.Dominio.pdb

@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.AcessoDados\\FichaAcademia.AcessoDados.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.AcessoDados\\FichaAcademia.AcessoDados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.AcessoDados\\FichaAcademia.AcessoDados.csproj",
+        "projectName": "FichaAcademia.AcessoDados",
+        "projectPath": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.AcessoDados\\FichaAcademia.AcessoDados.csproj",
+        "packagesPath": "C:\\Users\\Eleni Oliveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.AcessoDados\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eleni Oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.Dominio\\FichaAcademia.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.Dominio\\FichaAcademia.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.Dominio\\FichaAcademia.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.Dominio\\FichaAcademia.Dominio.csproj",
+        "projectName": "FichaAcademia.Dominio",
+        "projectPath": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.Dominio\\FichaAcademia.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Eleni Oliveira\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Eleni Oliveira\\Desktop\\ftt\\5 semestre\\Eleni-LIP-BDO\\FichaAcademia (2)\\FichaAcademia\\FichaAcademia.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Eleni Oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

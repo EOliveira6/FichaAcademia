@@ -1,0 +1,129 @@
+﻿@model X.PagedList.IPagedList<FichaAcademia.Dominio.Models.Aluno>
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Mvc.Common
+
+@{ ViewData["Title"] = "Alunos cadastrados"; }
+
+<h5>Alunos cadastrados</h5>
+
+<p>
+    <a asp-action="Create" class="btn-small green darken-2">Novo aluno</a>
+</p>
+
+<form asp-controller="Alunos" asp-action="Index" method="post">
+    <div class="col-lg-6">
+        <div class="input-group">
+            <input class="form-control" type="text" name="txtProcurar" placeholder="Buscar" style="display: inline-block; width:50%" />
+            <span class="input-group-btn">
+                <button style="border-radius: 30px 10px;" class="btn btn-default" type="submit"><img width="32" height="32" src="~/Imagens/icon.png"/></button>
+            </span>
+        </div><!-- /input-group -->
+    </div><!-- /.col-lg-6 -->
+</form>
+
+
+@if (TempData["Confirmacao"] != null)
+{
+    <h6 class="alert alert-success">@TempData["Confirmacao"]</h6>
+}
+
+<table class="table hover striped highlight">
+    <thead>
+        <tr>
+            <th>
+                Nome Completo
+            </th>
+            <th>
+                Idade
+            </th>
+            <th>
+                Peso
+            </th>
+            <th>
+                Objetivo
+            </th>
+            <th>
+                Professor
+            </th>
+            <th>
+                Frequencia Semanal
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NomeCompleto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idade)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Peso)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Objetivo.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Professor.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FrequenciaSemanal)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.AlunoId" class="btn-small light-blue darken-2">Atualizar</a> &nbsp;
+                    <a asp-action="Index" asp-controller="Fichas" asp-route-AlunoId="@item.AlunoId" class="btn-small amber darken-3">Fichas</a> &nbsp;
+                    <a onclick="ExibirModal(@item.AlunoId, '@item.NomeCompleto')" class="btn-small red darken-2">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Html.PagedListPager(Model, pagina => Url.Action("Index", new { pagina }), new PagedListRenderOptionsBase
+{
+    LiElementClasses = new string[] {"page-item"},
+    PageClasses = new string[] {"page-link"}
+})
+    Listando registros de @Model.FirstItemOnPage
+    a @Model.LastItemOnPage de um total de @Model.TotalItemCount
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Confirmar exclusão</h4>
+            <p>Deseja prosseguir com a exclusão de <b class="nome"></b> ?</p>
+        </div>
+        <div class="modal-footer">
+            <a class="modal-close btn green accent-4">Não</a>
+            <a class="modal-close btn red accent-4 btnConfirmar">Sim</a>
+        </div>
+    </div>
+
+    @section Scripts
+        {
+        <script>
+            $(document).ready(function () {
+                $(".modal").modal();
+            })
+
+            function ExibirModal(id, nome) {
+                $(".nome").html(nome);
+
+                $("#modal1").modal("open");
+
+                $(".btnConfirmar").on('click', function () {
+                    $.ajax({
+                        method: "POST",
+                        url: "/Alunos/Delete",
+                        data: { id: id },
+                        success: function () {
+                            location.reload();
+                        }
+                    });
+                });
+            }
+        </script>
+    }
